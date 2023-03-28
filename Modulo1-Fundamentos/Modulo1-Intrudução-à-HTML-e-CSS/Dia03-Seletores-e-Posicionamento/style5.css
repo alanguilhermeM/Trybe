@@ -1,0 +1,45 @@
+ol {
+    background-color: yellow;
+}
+ol li.par {
+    color: green;
+}
+ol li.impar {
+    text-transform: uppercase;
+}
+h1, h3 {
+    color: red;
+}
+h1 {
+    size: 40px;
+    border: 1px solid black;
+}
+
+li {
+    font-size: 20px;
+}
+ol.list_ordenada {
+    font-weight: bold;
+}
+li.blue {
+    color: blue;
+}
+li.rosa {
+    background-color: pink;
+}
+a:hover {
+    font-weight: 700;
+}
+
+#stack:hover {
+    color: orange;
+}
+#w3s:hover, #trybe:hover {
+    color: green;
+}
+#mdn:hover {
+    color: black;
+}
+#dev:hover {
+    color: yellow;
+}

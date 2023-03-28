@@ -1,0 +1,46 @@
+div:hover {
+    border-left: 10px solid black;
+}
+
+.black {
+    background-color: black;
+}
+.red {
+    background-color: red;
+}
+.purple {
+    background-color: purple;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.brown {
+    background-color: brown;
+}
+.aqua {
+    background-color: aqua;
+}
+
+.black > h3 {
+    color: white;
+    margin-left: 10px;
+    font-style: italic;
+}
+.red > h3 {
+    color: aquamarine;
+    margin-left: 10px;
+}
+.purple > h3 {
+    color: black;
+    margin-left: 10px;
+    font-style: italic;
+}
+
+.brown > h3 {
+    color: aqua;
+    margin-left: 10px;
+}
+.aqua > h3 {
+    color: blueviolet;
+    margin-left: 10px;
+    font-style: italic;
+}

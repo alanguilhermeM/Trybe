@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício</title>
+    <link rel="stylesheet" href="style.css">
+   
+  </head>
+  <body>
+    <header> 
+      <h1 class="title">Desafio - JavaEscripito</h1>
+    </header>    
+    <main class="main-content">
+      <section class="center-content">
+        <p>Texto padrão do nosso site</p>
+        <p>-----</p>
+        <p>Trybe</p>
+      </section>
+    </main>
+    <footer>
+      <p>Último parágrafo.</p>
+    </footer>
+    <script>
+      function alterandoT (texto) {
+        document.getElementsByTagName('p')[1].innerText = `${texto}`;
+
+      }
+      alterandoT('Bom dia')
+      
+      function backgroundColorMain (r, g, b) {
+        const mainContent = document.getElementsByClassName('main-content')[0];
+        mainContent.style.backgroundColor = `rgb(${r}, ${g}, ${b})`;
+      }
+      backgroundColorMain(76, 164, 109);
+
+      function backgroundColorCenter (cor) {
+        const centerContent = document.getElementsByClassName('center-content')[0];
+        centerContent.style.backgroundColor = `${cor}`;
+      }
+      backgroundColorCenter('white');
+
+      function corrigindoTitulo (titulo) {
+        document.getElementsByClassName('title')[0].innerText = `${titulo}`;
+      }
+      corrigindoTitulo('Desafio - JavaScript');
+
+      function upperCase (upper) {
+        document.getElementsByTagName('p')[0].innerHTML= `${upper}`;
+      }
+      upperCase('TEXTO PADRÃO DO NOSSO SITE');
+
+      function add () {
+        const tagP = document.querySelectorAll('center-content p');
+        let footer = document.querySelector('footer p');
+        let paragraph = ' ';
+        for(let i = 0; i < tagP.length; i+=1) {
+            if(tagP[0] === 'Texto padrão do nosso site') {
+              tagP[0] = 'TEXTO PADRÃO DO NOSSO SITE'
+            }
+            paragraph += ' ' + tagP[i];
+        }
+        footer.innerHTML = paragraph;
+      }
+      add();
+    </script>
+  </body>
+</html>

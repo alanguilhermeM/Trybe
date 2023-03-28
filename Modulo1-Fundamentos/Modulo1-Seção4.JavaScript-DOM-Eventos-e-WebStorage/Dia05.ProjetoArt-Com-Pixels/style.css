@@ -1,0 +1,45 @@
+body {
+    text-align: center;
+    background-image: url(https://vsthemes.org/uploads/posts/2021-05/1622024685_2077531652_preview_sunnsns.webp);
+    background-size: 100% 155%;
+}
+
+h1 {
+    margin-top: 150px;
+}
+
+.color {
+    border: black solid 1px;
+    position: relative;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    padding: 10px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+button {
+    padding: 8px 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: black solid 2px;
+}
+
+#pixel-board {
+    margin-top: 45px;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.selected {
+    border: black solid 1px;
+}
+
+#clear-board {
+    position: relative;
+    bottom: 435px;
+}

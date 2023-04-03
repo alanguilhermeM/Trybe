@@ -1,0 +1,20 @@
+.App {
+  text-align: center;
+}
+
+.pokedex {
+  display: flex;
+  background-color:aliceblue;
+  margin-left: 25%;
+  margin-right: 25%;
+  flex-wrap: wrap;
+}
+
+.pokemon {
+  flex-direction: column;
+  padding: 20px 80px;
+  display: flex;
+  margin: 10px 10px;
+  align-items: center;
+  background-color: rgb(161, 187, 178);
+}

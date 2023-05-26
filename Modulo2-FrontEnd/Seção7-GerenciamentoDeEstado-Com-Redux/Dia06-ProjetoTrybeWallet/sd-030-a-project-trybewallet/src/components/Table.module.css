@@ -1,0 +1,30 @@
+table {
+    display: flex;
+    /* flex-direction: row-reverse; */
+    position: relative;
+    bottom: 780px;
+    left: 700px;
+    width: 1100px;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 0;
+}
+
+thead {
+    position: relative;
+    right: 80px;
+}
+
+tbody {
+    position: relative;
+    right: 110px;
+}
+
+th {
+    padding: 0px 30px;
+    margin: 10px;
+}
+
+td {
+    padding: 0px 40px;
+}
